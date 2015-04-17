@@ -1,6 +1,9 @@
 package example;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
+import lombok.experimental.Builder;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,6 +16,7 @@ import java.util.List;
  */
 @Data
 @Entity
+@Accessors(chain = true, fluent = true)
 public class Collector {
     @Id
     @GeneratedValue
