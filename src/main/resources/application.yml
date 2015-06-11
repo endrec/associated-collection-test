@@ -3,3 +3,4 @@ logging:
     org.hibernate.SQL: DEBUG
     org.hibernate.type: TRACE
     org.hibernate.jpa.internal.util.LogHelper:  DEBUG
+    org.springframework.data: DEBUG
